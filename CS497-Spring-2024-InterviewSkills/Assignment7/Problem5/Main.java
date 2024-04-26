@@ -3,7 +3,9 @@ public class Main {
     public static void main(String[] args) {
         // test case 1
         int[] test1 = {-2,1,-3,4,-1,2,1,-5,4};
+        // test case 2
         int[] test2 = {4,-1,2,1};
+        // test case 3
         int[] test3 = {1};
         System.out.println(maxSubArray(test1));
         System.out.println(maxSubArray(test2));
