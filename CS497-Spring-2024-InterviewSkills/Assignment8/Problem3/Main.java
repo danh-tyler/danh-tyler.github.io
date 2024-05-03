@@ -25,6 +25,6 @@ public class Main {
                 result++;
             }
         }
-        return amount<=0?result:-1;
+        return amount==0?result:-1;
     }
 }
