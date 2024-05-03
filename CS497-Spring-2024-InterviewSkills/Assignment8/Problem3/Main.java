@@ -16,9 +16,9 @@ public class Main {
     }
     public static int coinChange(int[] coins, int amount) {
         if (amount==0){return 0;}
+        Arrays.sort(coins);
         if (amount < coins[0]){return -1;}
         int result=0;
-        Arrays.sort(coins);
         for(int i=coins.length - 1;i>=0;i--){
             while(amount >= coins[i]){
                 amount-=coins[i];
